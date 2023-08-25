@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f333f"
+    tools:context=".Questao2Activity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Vamos calcular o volume de uma caixa !!"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtLargura"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Digite a largura"
+        android:inputType="numberDecimal"
+        android:textColorHint="#6F7070"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/edtComprimento"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Digite o comprimento"
+        android:inputType="numberDecimal"
+        android:textColorHint="#6F7070"
+        app:layout_constraintStart_toStartOf="@+id/edtLargura"
+        app:layout_constraintTop_toBottomOf="@+id/edtLargura" />
+
+    <EditText
+        android:id="@+id/edtAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Digite a altura"
+        android:inputType="numberDecimal"
+        android:textColorHint="#6F7070"
+        app:layout_constraintStart_toStartOf="@+id/edtComprimento"
+        app:layout_constraintTop_toBottomOf="@+id/edtComprimento" />
+
+    <Button
+        android:id="@+id/btnCalcularVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Calcular"
+        app:layout_constraintEnd_toEndOf="@+id/edtAltura"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/edtAltura"
+        app:layout_constraintTop_toBottomOf="@+id/edtAltura" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

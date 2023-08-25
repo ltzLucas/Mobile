@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A27"
+    android:padding="15dp"
+    tools:context=".Questao5Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Insira as notas do aluno para ser calculada a média!!"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Insira a 1º nota!"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edtNota01"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:hint="Nota 1"
+        android:textColorHint="#666666"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira a 2º nota!"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edtNota02"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:hint="Nota 2"
+        android:textColorHint="#666666"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira a 3º nota!"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edtNota03"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:hint="Nota 3"
+        android:textColorHint="#666666"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira a 4º nota!"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edtNota04"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:hint="Nota 4"
+        android:textColorHint="#666666"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnCalcularMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:text="Calcular"
+        />
+
+
+
+</LinearLayout>

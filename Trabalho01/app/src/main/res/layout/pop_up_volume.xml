@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="#2f333f"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/txtClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:text="X"
+
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:textStyle="bold"
+        android:background="@drawable/cerclebackgroud" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/caixa2"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/txtLargura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Largura: "
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:id="@+id/txtComprimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comprimento: "
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:id="@+id/txtAltura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Altura: 15 cm"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+            />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtVolume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volume: "
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
