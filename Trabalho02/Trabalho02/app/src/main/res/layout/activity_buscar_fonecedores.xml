@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#1A1A27"
+    tools:context=".BuscarFonecedores">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visualização dos fornecedores Cadastrados!"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#EDEDED"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o nome para buscar no banco"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:textColor="#8D71B2"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edtNomeFornecedorBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nome"
+        android:textColorHint="#878688"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#878688"
+        android:text="BUSCAR"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/txtInfoFornecedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:textColor="#8D71B2"
+        android:layout_marginTop="50dp"
+        />
+
+
+</LinearLayout>
